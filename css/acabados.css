@@ -448,7 +448,7 @@ header nav ul .li-contact a:hover {
   margin: 0 auto;
   padding: 3rem 1rem 3rem 3rem;
   display: flex;
-  border: 0.2rem rgb(255, 115, 0) solid;
+  box-shadow: 0 0 7px #777;
   margin-top: 2rem;
 }
 
