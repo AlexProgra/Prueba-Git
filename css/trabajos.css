@@ -224,53 +224,31 @@ padding: 1vh 2vh;
 }
 
 .serv-see-img {
-    width: 30rem;
-    height: 100%; 
-}
-
-li {
-    list-style: none;
-}
-
-.serv-see img {
-    width: 100%;
-    height: 30rem;
-    border-radius: 0.4rem;
-    box-shadow: inset 3px 1px 3px #333;
-    object-fit: cover;
-    margin: 0 auto;
-    transition: all 4s;
-}
-
-.a-serv-img {
-    width: 100%;
+    width: 25rem;
     height: 100%;
-    overflow: hidden;
-}
-
-.a-serv-img ul {
-    padding: 0;
     display: flex;
-    width: 100%;
-    transition: all 4s;
+    border-radius: 0.4rem;
 }
 
-.a-serv-img ul li {
-    list-style: none;
-    width: 50%;
-    height: 100%;
-    transition: all 4s;
-}
-
-.img1 {
-    position: relative;
+.box {
+    flex: 1;
+    overflow: hidden;
+    line-height: 0;
     width: 100%;
     height: 100%;
+    transition: all 0.3s ease-out;
 }
 
-ul li:hover {
-    flex: 190%;
+.box > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 0.3s ease-out;
 }
+
+.box:hover {
+    flex: 85%;
+} 
 
 .serv-see-content {
     width: 50%;
@@ -291,6 +269,7 @@ ul li:hover {
     font-size: 1.2rem;
     font-family: sans-serif;
     font-style: italic;
+    list-style: none;
 }
 
 .serv-see-content .serv-see-price {
