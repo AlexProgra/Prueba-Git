@@ -6,7 +6,7 @@ function mostrarScroll() {
 
     for (var i = 0; i < altura.length; i++) {
         let alturaAnimado = altura[i].offsetTop;
-        if(alturaAnimado -160 < scrollTop && alturaAnimado +1700 > scrollTop) {
+        if(alturaAnimado -160 < scrollTop && alturaAnimado +2100 > scrollTop) {
             animado[i].style.opacity = 1;
             animado[i].classList.add("mostrar-banner");
             animado[i].classList.add("posicionar-banner");
