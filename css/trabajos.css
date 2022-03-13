@@ -191,6 +191,12 @@ padding: 1vh 2vh;
     font-weight: 100;
 }
 
+
+
+
+/* donde se ven nuestros trabajos --------------------------------------------------------------- */
+
+
 .father {
     opacity: 0;
     transition: all 0.5s;
@@ -210,9 +216,7 @@ padding: 1vh 2vh;
     width: 50%;
     min-width: 30rem;
     height: 100%;
-    display: flex;
     border: 2px #eee solid;
-    padding: 1rem;
     border-radius: 0.4rem;
     transition: all 0.5s;
     overflow: hidden;
@@ -236,31 +240,23 @@ padding: 1vh 2vh;
 }
 
 .serv-see-img {
-    width: 25rem;
-    height: 100%;
+    width: 100%;
+    height: 80%;
     display: flex;
     border-radius: 0.4rem;
 }
 
 .box {
-    flex: 1;
-    overflow: hidden;
-    line-height: 0;
+    width: 100%;
+    height: 100%;
+    transition: all 0.3s;
+}
+
+.box img {
     width: 100%;
     height: 100%;
     transition: all 0.3s ease-out;
 }
-
-.box > img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    transition: all 0.3s ease-out;
-}
-
-.box:hover {
-    flex: 85%;
-} 
 
 .serv-see-content {
     width: 50%;
