@@ -367,7 +367,7 @@ header nav ul .li-contact a:hover {
 }
 
 .services {
-  width: 70%;
+  width: 65%;
   height: 240rem;
   float: right;
   margin-right: 10rem;
@@ -379,26 +379,26 @@ header nav ul .li-contact a:hover {
   width: 90%;
   height: 35rem;
   border-radius: 0.4rem;
-  margin: 3rem 0;
-  transition: all 0.4s;
+  margin: 3rem 0 5rem 0;
+  transition: all 0.6s;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/obra-blanca.jpg);
   background-size: 100%;
   text-align: center;
 }
 
 .section-services2:hover {
-  transition: all 0.4s;
+  transition: all 0.6s;
   background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(../img/obra-blanca.jpg);
 }
 
 .section-services2:hover h4 {
   opacity: 0;
-  transform: translateY(-100px);
+  transform: translateY(-70px);
 }
 
 .section-services2:hover p {
   opacity: 0;
-  transform: translateY(100px);
+  transform: translateY(70px);
 }
 
 .section-services2 a div {
