@@ -195,11 +195,7 @@ header nav ul .li-contact a:hover {
   padding: 0;
   display: flex;
   width: 400%;
-  animation: cambio 12s infinite alternate-reverse;
-}
-
-.section-slider-img ul:hover {
-  animation-play-state: paused;
+  animation: cambio 12s infinite reverse;
 }
 
 .section-slider-img li {
@@ -211,13 +207,13 @@ header nav ul .li-contact a:hover {
   0% {margin-left: 0;}
   15% {margin-left: 0;}
 
-  25% {margin-left: -100%;}
+  27% {margin-left: -100%;}
   40% {margin-left: -100%;}
 
-  50% {margin-left: -200%;}
+  48% {margin-left: -200%;}
   65% {margin-left: -200%;}
 
-  75% {margin-left: -300%;}
+  77% {margin-left: -300%;}
   100% {margin-left: -300%;}
 }
 
