@@ -198,6 +198,10 @@ header nav ul .li-contact a:hover {
   animation: cambio 12s infinite alternate-reverse;
 }
 
+.section-slider-img ul:hover {
+  animation-play-state: paused;
+}
+
 .section-slider-img li {
   list-style: none;
   width: 100%;
