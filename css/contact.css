@@ -242,8 +242,12 @@ padding: 1vh 2vh;
   padding: 1rem;
   border-radius: 0.4rem;
   background: rgb(22,120,8);
-  background: linear-gradient(183deg, rgb(5, 39, 1) 0%, rgba(22, 220, 8,1) 110%);
+  background: linear-gradient(183deg, rgb(5, 39, 1) 0%, rgba(22, 220, 8,1) 120%);
   cursor: pointer;
+  border: none;
+  color: #fff;
+  font-size: 1.6rem;
+  font-family: sans-serif;
 }
 
 .footer {
