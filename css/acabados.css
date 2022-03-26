@@ -69,26 +69,27 @@ header {
   transition: all 0.7s;
   z-index: 1;
   margin-bottom: 3rem;
-}
-
-header nav {
-  transition: all 0.5s;
   position: fixed;
-}
-
-header nav ul {
+  top: 0;
+  }
+  
+  header nav {
   transition: all 0.5s;
-}
-
-header nav ul li {
+  }
+  
+  header nav ul {
+  transition: all 0.5s;
+  }
+  
+  header nav ul li {
   margin-left: 2rem;
   list-style: none;
   transition: all 0.5s;
   float: left;
   position: relative;
-}
-
-header nav ul li a {
+  }
+  
+  header nav ul li a {
   font-size: 1.6rem;
   color: rgb(0, 104, 0);
   text-decoration: none;
@@ -96,9 +97,9 @@ header nav ul li a {
   font-family: sans-serif;
   transition: all 0.5s;
   font-style: italic;
-}
-
-header nav ul .link a::before{
+  }
+  
+  header nav ul .link a::before{
   content: "";
   height: 2px;
   width: 0%;
@@ -107,74 +108,74 @@ header nav ul .link a::before{
   left: 0;
   bottom: -10px;
   transition: all 0.5s ease-out;
-}
-
-header nav ul .link a:hover::before {
+  }
+  
+  header nav ul .link a:hover::before {
   width: 100%;
-}
-
-header nav ul .li-img a img {
+  }
+  
+  header nav ul .li-img a img {
   width: 10rem;
   margin-top: -3rem;
   border-radius: 0.5rem;
   transition: all 0.5s;
-}
-
-header nav ul li>.menu-services {
-margin-left: 22vh;
-}
-
-header nav ul .li-contact {
+  }
+  
+  header nav ul li>.menu-services {
+  margin-left: 22vh;
+  }
+  
+  header nav ul .li-contact {
   transition: all 0.5s;
-}
-
-header nav ul .li-contact a{
+  }
+  
+  header nav ul .li-contact a{
   transition: all 0.5s;
   border-radius: 0.4rem;
   color: rgb(255, 255, 255);
   background-color: rgb(0, 80, 0);
   border: 1px rgb(0, 80, 0) solid;
-}
-
-header nav ul .li-contact a:hover {
+  }
+  
+  header nav ul .li-contact a:hover {
   background-color: #fff;
   color: rgb(0, 100, 0);
-}
-
-.fijar-header {
+  }
+  
+  .fijar-header {
   position: fixed;
   padding: 2vh 2vh;
   height: 5rem;
   z-index: 10;
   background-color: #fff;
-  box-shadow: 1px 9px 19px 0px #333;
-  box-shadow: 0px 10px 13px -10px #333;
-}
-
-.fijar-header .img {
+  box-shadow: 1px 9px 19px 0px rgb(255, 115, 0);
+  box-shadow: 0px 10px 13px -10px rgb(255, 115, 0);
+  }
+  
+  .fijar-header .img {
   transform: scale(0.8);
   background-color: #fff;
   margin-top: -1.5rem;
-}
-
-.fijar-header ul li a {
+  }
+  
+  .fijar-header ul li a {
   color: rgb(0, 129, 0);
   text-shadow: none;
-}
-
-.fijar-header ul li a:hover {
+  }
+  
+  .fijar-header ul li a:hover {
   color: green;
-}
-
-.fijar-header ul .li-contact a {
+  }
+  
+  .fijar-header ul .li-contact a {
   padding: 1vh 2vh;
-}
-
+  }
+  
 .container .section-slider {
   width: 95%;
   height: 45rem;
   background-color: #fff;
-  margin: 0 auto;
+  margin: 9rem auto 0 auto;
   border: 2px #888 solid;
   border-radius: 0.4rem;
 }
@@ -243,7 +244,7 @@ header nav ul .li-contact a:hover {
   box-shadow: 3px 5px 10px #333;
   padding: 2rem;
   background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/obra-blanca.jpg);
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
   transition: all 0.6s;
@@ -305,15 +306,16 @@ header nav ul .li-contact a:hover {
   transition: all 0.4s;
   display: flex;
   flex-wrap: wrap;
+  padding: 2rem 12rem;
 }
 
 .section-services2 {
   width: 30%;
   height: 40rem;
+  margin: 2rem;
   border-radius: 0.4rem;
-  margin: 3rem;
   transition: all 0.6s;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.274)), url(../img/obra-blanca.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/obra-blanca.jpg);
   background-size: 100%;
   text-align: center;
   flex-grow: 1;
@@ -327,7 +329,7 @@ header nav ul .li-contact a:hover {
 .section-services2 a div {
   width: 100%;
   height: 100%;
-  padding: 13rem;
+  padding: 10rem;
 }
 
 .services h4 {
