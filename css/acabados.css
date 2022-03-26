@@ -283,122 +283,45 @@ header nav ul .li-contact a:hover {
 }
 
 .section-services {
-  width: 100%;
-  height: 240rem;
-  padding-top: 4rem;
-  margin-bottom: 3rem;
+  height: 220rem;
 }
 
 .services-title {
   width: 100%;
   height: 5rem;
-  justify-content: center;
+  text-align: center;
 }
 
 .services-title h1 {
   font-family: sans-serif;
-  text-align: center;
   font-size: 3rem;
   color: rgb(0, 119, 0);
-  font-style: italic;
-  margin: 0 0 0rem 28.5rem;
-}
-
-.banner-navigation {
-  width: 25rem;
-  height: 25rem;
-  float: left;
-  transition: all 0.3s;
-  opacity: 0;
-  position: fixed;
-  margin-top: -74rem;
-  transform: translateX(-260px);
-}
-
-.posicionar-banner {
-  transform: translateX(0);
-}
-
-.mostrar-banner {
-  animation: mostrar-banner 0.3s;
-}
-
-@keyframes mostrar-banner{
-  0% {
-    transform: translateX(-60px);
-  }
-  100% {
-    transform: translateX(0px);
-  }
-}
-
-.botoon-navigation {
-  transition: all 0.2s;
-}
-
-.botoon-navigation:hover {
-  width: 110%;
-  padding-left: 2rem;
-}
-
-.navigation-obra-blanca, .navigation-enchape, .navigation-pintar, .navigation-electricista, .navigation-gas, .navigation-todero {
-  width: 100%;
-  height: 14%;
-  padding: 0.8rem 0rem 0rem 0rem;
-  margin-bottom: 0.7rem;
-  overflow: hidden;
-  border-radius: 0.6rem;
-  margin-left: -0.6rem;
-  border-left: 0.5rem #fff solid;
-}
-
-.banner-navigation div a {
-  width: 100%;
-  height: 100%;
-  border-radius: 0.4rem;
-  padding: 1.3rem 21rem 1.3rem 2rem;
-  background-color: rgb(240, 240, 240);
-  text-decoration: none;
-  color: #333;
-  font-size: 1.6rem;
-  font-weight: 700;
-  font-family: sans-serif;
   font-style: italic;
 }
 
 .services {
-  width: 65%;
-  height: 240rem;
-  float: right;
-  margin-right: 10rem;
-  margin-top: 2rem;
+  width: 100%;
+  height: 220rem;
   transition: all 0.4s;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .section-services2 {
-  width: 90%;
-  height: 35rem;
+  width: 30%;
+  height: 40rem;
   border-radius: 0.4rem;
-  margin: 3rem 0 5rem 0;
+  margin: 3rem;
   transition: all 0.6s;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/obra-blanca.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.274)), url(../img/obra-blanca.jpg);
   background-size: 100%;
   text-align: center;
+  flex-grow: 1;
 }
 
 .section-services2:hover {
   transition: all 0.6s;
   background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(../img/obra-blanca.jpg);
-}
-
-.section-services2:hover h4 {
-  opacity: 0;
-  transform: translateY(-70px);
-}
-
-.section-services2:hover p {
-  opacity: 0;
-  transform: translateY(70px);
 }
 
 .section-services2 a div {
@@ -422,6 +345,16 @@ header nav ul .li-contact a:hover {
   color: #fff;
   font-family: sans-serif;
   transition: all 0.4s;
+}
+
+.section-services2:hover h4 {
+  opacity: 0;
+  transform: translateY(-70px);
+}
+
+.section-services2:hover p {
+  opacity: 0;
+  transform: translateY(70px);
 }
 
 .obras-content-section {
