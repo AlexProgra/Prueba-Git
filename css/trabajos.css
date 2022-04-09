@@ -197,7 +197,7 @@ padding: 1vh 2vh;
 
 .father-serv {
     display: flex;
-    width: 85%;
+    width: 90%;
     transition: 0.5s;
     height: 24rem;
     padding: 1rem 0rem 1rem 3rem;
@@ -219,19 +219,6 @@ padding: 1vh 2vh;
 
 .serv-see:hover {
     box-shadow: 0 4px 10px #999;
-}
-
-.mostrar-serv {
-    animation: mostrar-serv 0.4s;
-}
-
-@keyframes mostrar-serv {
-    0% {
-        transform: translateY(100px);
-    }
-    100% {
-        transform: translateY(0px);
-    }
 }
 
 li {
